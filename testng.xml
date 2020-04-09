@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.HyreFox.utilities.Reporting"/>
+</listeners>
+  <test  name="Test">
+    <classes>
+      <class name="com.HyreFox.testCases.LoginTest"/>
+     <!-- <class name="com.HyreFox.testCases.leadershipBoard"/>--> 
+      <!--<class name="com.HyreFox.testCases.CreateEmployer"/> -->
+      <class name="com.HyreFox.testCases.CreateRequirements"></class> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
