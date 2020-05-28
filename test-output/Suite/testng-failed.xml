@@ -6,6 +6,27 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.HyreFox.testCases.CandidateFollowup">
+        <methods>
+          <include name="createrequire"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.CandidateFollowup -->
+      <class name="com.HyreFox.testCases.CandidateFollowupEdit">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="createrequire"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.CandidateFollowupEdit -->
+      <class name="com.HyreFox.testCases.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="logintest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.LoginTest -->
       <class name="com.HyreFox.testCases.CreateEmployer">
         <methods>
           <include name="setup"/>
@@ -13,6 +34,76 @@
           <include name="createemp"/>
         </methods>
       </class> <!-- com.HyreFox.testCases.CreateEmployer -->
+      <class name="com.HyreFox.testCases.AddCandidate">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="addcandidate"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.AddCandidate -->
+      <class name="com.HyreFox.testCases.RequirementDrive">
+        <methods>
+          <include name="setup"/>
+          <include name="createrequiredrive"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.RequirementDrive -->
+      <class name="com.HyreFox.testCases.Employers">
+        <methods>
+          <include name="createrequire"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.Employers -->
+      <class name="com.HyreFox.testCases.CandidateInternalDB">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="createrequire"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.CandidateInternalDB -->
+      <class name="com.HyreFox.testCases.CreateRequirements">
+        <methods>
+          <include name="setup"/>
+          <include name="createrequire"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.CreateRequirements -->
+      <class name="com.HyreFox.testCases.LostCandidate_Assign">
+        <methods>
+          <include name="createrequire"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.LostCandidate_Assign -->
+      <class name="com.HyreFox.testCases.EmployerCommunication">
+        <methods>
+          <include name="setup"/>
+          <include name="empcom"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.EmployerCommunication -->
+      <class name="com.HyreFox.testCases.leadershipBoard">
+        <methods>
+          <include name="leaderboard"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.leadershipBoard -->
+      <class name="com.HyreFox.testCases.EmployerDetails">
+        <methods>
+          <include name="setup"/>
+          <include name="empcom"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.EmployerDetails -->
+      <class name="com.HyreFox.testCases.Candidate">
+        <methods>
+          <include name="setup"/>
+          <include name="createrequire"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.Candidate -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

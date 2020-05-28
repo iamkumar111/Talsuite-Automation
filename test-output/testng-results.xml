@@ -1,31 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="26" total="40" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="125055" started-at="2020-04-07T13:56:21 IST" finished-at="2020-04-07T13:58:26 IST">
+  <suite name="Suite" duration-ms="775770" started-at="2020-05-25T15:49:44 IST" finished-at="2020-05-25T16:02:40 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="125055" started-at="2020-04-07T13:56:21 IST" finished-at="2020-04-07T13:58:26 IST">
+    <test name="Test" duration-ms="775770" started-at="2020-05-25T15:49:44 IST" finished-at="2020-05-25T16:02:40 IST">
+      <class name="com.HyreFox.testCases.CandidateFollowup">
+        <test-method status="PASS" signature="createrequire()[pri:0, instance:com.HyreFox.testCases.CandidateFollowup@7cbd213e]" name="createrequire" duration-ms="178475" started-at="2020-05-25T15:56:31 IST" finished-at="2020-05-25T15:59:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createrequire -->
+      </class> <!-- com.HyreFox.testCases.CandidateFollowup -->
+      <class name="com.HyreFox.testCases.Candidate">
+        <test-method status="PASS" signature="createrequire()[pri:0, instance:com.HyreFox.testCases.Candidate@42eca56e]" name="createrequire" duration-ms="50730" started-at="2020-05-25T15:55:06 IST" finished-at="2020-05-25T15:55:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createrequire -->
+      </class> <!-- com.HyreFox.testCases.Candidate -->
+      <class name="com.HyreFox.testCases.EmployerCommunication">
+        <test-method status="PASS" signature="empcom()[pri:0, instance:com.HyreFox.testCases.EmployerCommunication@6950e31]" name="empcom" duration-ms="105779" started-at="2020-05-25T15:52:29 IST" finished-at="2020-05-25T15:54:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- empcom -->
+      </class> <!-- com.HyreFox.testCases.EmployerCommunication -->
+      <class name="com.HyreFox.testCases.leadershipBoard">
+        <test-method status="PASS" signature="leaderboard()[pri:0, instance:com.HyreFox.testCases.leadershipBoard@66d1af89]" name="leaderboard" duration-ms="10870" started-at="2020-05-25T15:49:56 IST" finished-at="2020-05-25T15:50:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaderboard -->
+      </class> <!-- com.HyreFox.testCases.leadershipBoard -->
       <class name="com.HyreFox.testCases.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.HyreFox.testCases.LoginTest@33f88ab]" name="setup" is-config="true" duration-ms="40975" started-at="2020-04-07T13:55:40 IST" finished-at="2020-04-07T13:56:21 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.HyreFox.testCases.LoginTest@4a87761d]" name="setup" is-config="true" duration-ms="24044" started-at="2020-05-25T15:49:20 IST" finished-at="2020-05-25T15:49:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logintest()[pri:0, instance:com.HyreFox.testCases.LoginTest@33f88ab]" name="logintest" duration-ms="83487" started-at="2020-04-07T13:56:21 IST" finished-at="2020-04-07T13:57:45 IST">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.HyreFox.testCases.LoginTest@4a87761d]" name="logintest" duration-ms="10668" started-at="2020-05-25T15:49:45 IST" finished-at="2020-05-25T15:49:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HyreFox.testCases.LoginTest@33f88ab]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-04-07T13:58:28 IST" finished-at="2020-04-07T13:58:28 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HyreFox.testCases.LoginTest@4a87761d]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-05-25T16:02:42 IST" finished-at="2020-05-25T16:02:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.HyreFox.testCases.LoginTest -->
+      <class name="com.HyreFox.testCases.AddCandidate">
+        <test-method status="PASS" signature="addcandidate()[pri:0, instance:com.HyreFox.testCases.AddCandidate@52f759d7]" name="addcandidate" duration-ms="34448" started-at="2020-05-25T15:55:56 IST" finished-at="2020-05-25T15:56:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcandidate -->
+      </class> <!-- com.HyreFox.testCases.AddCandidate -->
+      <class name="com.HyreFox.testCases.CreateEmployer">
+        <test-method status="PASS" signature="createemp()[pri:0, instance:com.HyreFox.testCases.CreateEmployer@8646db9]" name="createemp" duration-ms="45023" started-at="2020-05-25T15:50:06 IST" finished-at="2020-05-25T15:50:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createemp -->
+      </class> <!-- com.HyreFox.testCases.CreateEmployer -->
       <class name="com.HyreFox.testCases.CreateRequirements">
-        <test-method status="PASS" signature="createrequire()[pri:0, instance:com.HyreFox.testCases.CreateRequirements@27a8c74e]" name="createrequire" duration-ms="40920" started-at="2020-04-07T13:57:45 IST" finished-at="2020-04-07T13:58:26 IST">
+        <test-method status="PASS" signature="createrequire()[pri:0, instance:com.HyreFox.testCases.CreateRequirements@37374a5e]" name="createrequire" duration-ms="45802" started-at="2020-05-25T15:50:51 IST" finished-at="2020-05-25T15:51:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createrequire -->
       </class> <!-- com.HyreFox.testCases.CreateRequirements -->
+      <class name="com.HyreFox.testCases.RequirementDrive">
+        <test-method status="PASS" signature="createrequiredrive()[pri:0, instance:com.HyreFox.testCases.RequirementDrive@4671e53b]" name="createrequiredrive" duration-ms="24313" started-at="2020-05-25T15:51:37 IST" finished-at="2020-05-25T15:52:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createrequiredrive -->
+      </class> <!-- com.HyreFox.testCases.RequirementDrive -->
+      <class name="com.HyreFox.testCases.Employers">
+        <test-method status="PASS" signature="createrequire()[pri:0, instance:com.HyreFox.testCases.Employers@2db7a79b]" name="createrequire" duration-ms="27526" started-at="2020-05-25T15:52:02 IST" finished-at="2020-05-25T15:52:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createrequire -->
+      </class> <!-- com.HyreFox.testCases.Employers -->
+      <class name="com.HyreFox.testCases.LostCandidate_Assign">
+        <test-method status="PASS" signature="createrequire()[pri:0, instance:com.HyreFox.testCases.LostCandidate_Assign@3ecd23d9]" name="createrequire" duration-ms="87900" started-at="2020-05-25T16:00:20 IST" finished-at="2020-05-25T16:01:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createrequire -->
+      </class> <!-- com.HyreFox.testCases.LostCandidate_Assign -->
+      <class name="com.HyreFox.testCases.EmployerDetails">
+        <test-method status="PASS" signature="empcom()[pri:0, instance:com.HyreFox.testCases.EmployerDetails@b7dd107]" name="empcom" duration-ms="50596" started-at="2020-05-25T15:54:15 IST" finished-at="2020-05-25T15:55:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- empcom -->
+      </class> <!-- com.HyreFox.testCases.EmployerDetails -->
+      <class name="com.HyreFox.testCases.CandidateFollowupEdit">
+        <test-method status="PASS" signature="createrequire()[pri:0, instance:com.HyreFox.testCases.CandidateFollowupEdit@192d3247]" name="createrequire" duration-ms="50666" started-at="2020-05-25T15:59:29 IST" finished-at="2020-05-25T16:00:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createrequire -->
+      </class> <!-- com.HyreFox.testCases.CandidateFollowupEdit -->
+      <class name="com.HyreFox.testCases.CandidateInternalDB">
+        <test-method status="PASS" signature="createrequire()[pri:0, instance:com.HyreFox.testCases.CandidateInternalDB@569cfc36]" name="createrequire" duration-ms="52091" started-at="2020-05-25T16:01:48 IST" finished-at="2020-05-25T16:02:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createrequire -->
+      </class> <!-- com.HyreFox.testCases.CandidateInternalDB -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

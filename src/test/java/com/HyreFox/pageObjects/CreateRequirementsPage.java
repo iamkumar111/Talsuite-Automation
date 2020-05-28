@@ -219,6 +219,10 @@ WebDriver ldriver;
 	
 	@FindBy(how = How.ID, using="ReplacementDays") @CacheLookup 
 	private WebElement replacementDays;
+	public void ReplacementDays(String id)
+	{
+		replacementDays.sendKeys(id);
+	}
 	
 	@FindBy(how = How.ID, using="CityID") @CacheLookup 
 	private WebElement cityID;

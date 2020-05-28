@@ -1,11 +1,11 @@
 package com.HyreFox.testCases;
 
 
+import java.awt.AWTException;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-            
+import java.util.Date;     
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -18,6 +18,8 @@ import org.testng.annotations.AfterSuite;
 
 import org.testng.annotations.BeforeSuite;
 
+import com.HyreFox.utilities.menupage;
+
 
 public class BaseClass {
 
@@ -28,15 +30,18 @@ public class BaseClass {
 	public static Logger logger;
 	public String value="201911";
 	@BeforeSuite
-	public void setup()
+	public void setup() throws AWTException
 	{			
-			System.setProperty("webdriver.gecko.driver","C:\\Users\\Sharma\\eclipse-workspace\\HyreFox\\Drivers\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver","C:\\Users\\Sharma\\eclipse-workspace\\HyreFox\\Drivers\\geckodriver.exe");	
 			driver = new FirefoxDriver();
+			//System.setProperty("webdriver.chrome.driver","C:\\Users\\Sharma\\eclipse-workspace\\HyreFox\\Drivers\\chromedriver.exe");
+			//WebDriver driver=new ChromeDriver();
 			logger= Logger.getLogger("HyreFox");
 			PropertyConfigurator.configure("log4j.properties");
 			driver.get(baseurl);
+		
 	}
-	
+		  menupage menu=new menupage(driver);
 	      public void captureScreen(WebDriver driver, String tname) throws IOException {
 		  String dateName = new SimpleDateFormat("yyyy.MM.dd.hh.mm.ss").format(new Date());
 		  TakesScreenshot ts = (TakesScreenshot) driver;
@@ -53,6 +58,7 @@ public class BaseClass {
 	@AfterSuite
 	public void tearDown()
 	{
+
 		//driver.quit();
 	}
 	

@@ -7,9 +7,20 @@
   <test  name="Test">
     <classes>
       <class name="com.HyreFox.testCases.LoginTest"/>
-     <!-- <class name="com.HyreFox.testCases.leadershipBoard"/>--> 
-      <!--<class name="com.HyreFox.testCases.CreateEmployer"/> -->
-      <class name="com.HyreFox.testCases.CreateRequirements"></class> 
-    </classes>
+       <class name="com.HyreFox.testCases.leadershipBoard"/>
+      <class name="com.HyreFox.testCases.CreateEmployer"/>
+      <class name="com.HyreFox.testCases.CreateRequirements"/>
+	  <class name="com.HyreFox.testCases.RequirementDrive"/>
+	  <class name="com.HyreFox.testCases.Employers"/>
+	  <class name="com.HyreFox.testCases.EmployerCommunication"/>
+	  <class name="com.HyreFox.testCases.EmployerDetails"/>
+	  <class name="com.HyreFox.testCases.Candidate"/>
+	  <class name="com.HyreFox.testCases.AddCandidate"/>
+	  <class name="com.HyreFox.testCases.CandidateFollowup"/>
+	  <class name="com.HyreFox.testCases.CandidateFollowupEdit"/>	
+	  <class name="com.HyreFox.testCases.LostCandidate_Assign"/> 
+	  <class name="com.HyreFox.testCases.CandidateInternalDB"/>
+	 </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+

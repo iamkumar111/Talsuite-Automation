@@ -1,6 +1,6 @@
 package com.HyreFox.testCases;
 
-import org.openqa.selenium.NoSuchElementException;
+
 import org.testng.annotations.Test;
 import com.HyreFox.testData.*;
 import com.HyreFox.pageObjects.CreateEmployerPage;
@@ -9,11 +9,10 @@ import com.HyreFox.utilities.menupage;
 public class CreateEmployer extends BaseClass{
 	
 	@Test
-	public void createemp() throws InterruptedException,NoSuchElementException
+	public void createemp() throws InterruptedException 
 	{
-
+		menupage menu =new menupage(driver);
 		CreateEmployerdata data=new CreateEmployerdata(driver);
-		menupage menu=new menupage(driver);
 		Thread.sleep(10000);
 		menu.requiremenu();
 		logger.info("Menu Create");

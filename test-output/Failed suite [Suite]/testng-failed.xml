@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <listeners>
+    <listener class-name="com.HyreFox.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="com.HyreFox.testCases.LostCandidate_Assign">
+        <methods>
+          <include name="createrequire"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.LostCandidate_Assign -->
+      <class name="com.HyreFox.testCases.CandidateInternalDB">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="createrequire"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.CandidateInternalDB -->
+      <class name="com.HyreFox.testCases.CandidateFollowup">
+        <methods>
+          <include name="createrequire"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.CandidateFollowup -->
+      <class name="com.HyreFox.testCases.CandidateFollowupEdit">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="createrequire"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.CandidateFollowupEdit -->
+      <class name="com.HyreFox.testCases.EmployerDetails">
+        <methods>
+          <include name="setup"/>
+          <include name="empcom"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.EmployerDetails -->
+      <class name="com.HyreFox.testCases.EmployerCommunication">
+        <methods>
+          <include name="setup"/>
+          <include name="empcom"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.EmployerCommunication -->
+      <class name="com.HyreFox.testCases.AddCandidate">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="addcandidate"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.AddCandidate -->
+      <class name="com.HyreFox.testCases.Candidate">
+        <methods>
+          <include name="setup"/>
+          <include name="createrequire"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HyreFox.testCases.Candidate -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

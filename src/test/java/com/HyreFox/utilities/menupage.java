@@ -2,6 +2,7 @@ package com.HyreFox.utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -93,7 +94,7 @@ WebDriver ldriver;
 	@CacheLookup 
 	WebElement analyticmenu;
 	
-	@FindBy(xpath="//i[@class='kt-menu__link-icon flaticon-users']/following-sibling::span[1]") 
+	@FindBy(xpath="//*[@id='kt_aside_menu']/ul/li[2]/a/i") 
 	@CacheLookup 
 	WebElement candidatemenu;
 	
@@ -112,9 +113,9 @@ WebDriver ldriver;
 	
 	public void candidatemenu()
 	{
-		
-		candidatemenu.click();
-	}
+		Actions actions = new Actions(ldriver);
+		actions.moveToElement(candidatemenu).click().perform();
+}
 	
 	public void requiremenu()
 	{
@@ -155,7 +156,8 @@ WebDriver ldriver;
 			
 	public void candidates()
 	{
-		candidates.click();
+		Actions actions = new Actions(ldriver);
+		actions.moveToElement(candidates).click().perform();
 	}
 	
 	public void allReports()
